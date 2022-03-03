@@ -2,7 +2,7 @@
 
 Solutions are organized by folders as follows:
 
-1. Medicare Fraud detection using Anomaly Detection and Classification
+Fraud Detection with ML - Medicare Fraud detection using Anomaly Detection and Classification
 This is a solution that identifies fraudulent medicare providers from a PUF Medicare Data Set from CMS
 Please open the data_load.ipynb file for instructions on using this solution
 
