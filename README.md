@@ -1,11 +1,11 @@
-## My Project
+## This repo contains code for payment integrity solutions in Public Sector
 
-TODO: Fill this README out!
+Solutions are organized by folders as follows:
 
-Be sure to:
+1. Medicare Fraud detection using Anomaly Detection and Classification
+This is a solution that identifies fraudulent medicare providers from a PUF Medicare Data Set from CMS
+Please open the data_load.ipynb file for instructions on using this solution
 
-* Change the title in this README
-* Edit your repository description on GitHub
 
 ## Security
 
