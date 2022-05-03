@@ -5,7 +5,6 @@ Solutions are organized by folders as follows:
 1. Machine Learning - The folder contains all Machine Learning related code that predicts fraudulent medicare providers from a PUF Medicare Data Set from CMS. Code in each folder can be run independently.
 
 - Anomaly Detection with Random Cut Forest
-- Anomaly Detection using Auto Encoders
 - Classification with XGBoost
 - Classification with GNN using DGL (MXnet)
 - Classification with GNN using Neptune ML
