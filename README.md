@@ -7,7 +7,7 @@ Solutions are organized by folders as follows:
 - Anomaly Detection with Random Cut Forest
 - Classification with XGBoost
 - Classification with GNN using DGL (MXnet)
-- Classification with GNN using Neptune ML
+- Classification with GNN using Neptune ML: For Neptune ML, please ensure you run the notebooks provided in SageMaker Notebooks (not studio) after setting up Neptune ML first (https://docs.aws.amazon.com/neptune/latest/userguide/machine-learning-setup.html)
 
 2. Data Preparation - This folder contains sample code to process the PUF Meducare Data Set from CMS and prepare the data for ML
 
