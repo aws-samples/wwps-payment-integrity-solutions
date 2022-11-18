@@ -1,33 +1,37 @@
-## This repo contains code for payment integrity solutions in Public Sector
+# Identify improper payments with analytics and machine learning
 
-Solutions are organized by folders as follows:
+## Introduction
 
-1. Machine Learning - The folder contains all Machine Learning related code that predicts fraudulent medicare providers from a PUF Medicare Data Set from CMS. Code in each folder can be run independently.
+Many government agencies employ rules-based systems to identify improper payments. Improper payments are those that either should not be made, or are made in the incorrect amount, due to fraud or other errors. Rules-based techniques involve manually researching, understanding, and identifying patterns and heuristics that are then applied as business rules to flag potential issues. However, this approach increases the amount of time taken to identify improper payments due to the heavy dependence on continuously adding and updating rules based on ever changing and newly emerging patterns. In addition, traditional techniques fail to capture emerging threats such as synthetic ID fraud.
 
-- Anomaly Detection with Random Cut Forest
-- Classification with XGBoost
-- Classification with GNN using DGL (MXnet)
-- Classification with GNN using Neptune ML: For Neptune ML, please ensure you run the notebooks provided in SageMaker Notebooks (not studio) after setting up Neptune ML first (https://docs.aws.amazon.com/neptune/latest/userguide/machine-learning-setup.html)
+In synthetic ID fraud, a fraudster applies for government benefits or services using a real Social Security number combined with fake transaction information and an address or a bank account where they can receive funds. To mitigate this type of fraud, agencies need to complement their rules-based improper payment detection systems with machine learning (ML) techniques. By using ML on a large number of disparate but related data sources, including social media, agencies can formulate a more comprehensive risk score for each individual or transaction to help investigators identify improper payments efficiently.
 
-2. Data Preparation - This folder contains sample code to process the PUF Meducare Data Set from CMS and prepare the data for ML
+The goal of this workshop is to introduce you to ML techniques that help identify fraud techniques that help identify fraud. We will work through two labs to accomplish this objective:
 
-Please open the data_load.ipynb file for instructions on using this solution. 
+- [Lab1: Supervised Learning using SageMaker Built-in Algorithm XGBoost with a Real-Time Endpoint](./classification-lab1.ipynb)
+- [Lab2: Supervised Learning using open source Random Forest Algorithm with Batch Transform](./classification-lab2.ipynb)
 
+## Getting started
 
-## AWS SageMaker Service Limits 
-A number of notebooks may need a potential increase in Service Limits. Please ensure you get approval for the following at a minimum:
-ml.r5.xlarge for endpoint usage - 2 
-ml.p3.2xlarge for training job usage - 2 
-ml.r5.large for processing job usage - 2
-ml.r5.24xlarge for processing job usage - 3
-ml.r5.24xlarge for endpoint usage - 3 
-ml.g4dn.xlarge - 1
+Coming Soon...
 
-## Security
+You can run this workshop in all commercial AWS regions where Amazon SageMaker is available.
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## Datasets
 
+The curated dataset used for this lab comes from the following Centers for Medicare & Medicaid Services dataset: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service
+    
 ## License
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
+The contents of this workshop are licensed under the [Apache 2.0 License](./LICENSE).
 
+## Authors
+[Sherry Ding](https://www.linkedin.com/): Sr. AI/ML Solutions Architect
+<br />
+[Nate Haynes](https://www.linkedin.com/): Sr. Solutions Architect
+<br />
+[Sanjeev Pulapaka](https://www.linkedin.com/): Sr. Solutions Architect
+<br />
+[Bill Screen](https://www.linkedin.com/): Sr. Solutions Architect
+<br />
+[Aaron Sengstacken](https://www.linkedin.com/): Sr. AI/ML Solutions Architect
