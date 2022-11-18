@@ -13,7 +13,7 @@ The goal of this workshop is to introduce you to ML techniques that help identif
 
 ## Getting started
 
-Coming Soon...
+Coming Soon...  
 
 You can run this workshop in all commercial AWS regions where Amazon SageMaker is available.
 
