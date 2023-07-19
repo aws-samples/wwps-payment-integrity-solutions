@@ -1,4 +1,4 @@
-# Identify improper payments with analytics and machine learning
+# Identify improper payments with machine learning techiniques
 
 ## Introduction
 
@@ -6,32 +6,24 @@ Many government agencies employ rules-based systems to identify improper payment
 
 In synthetic ID fraud, a fraudster applies for government benefits or services using a real Social Security number combined with fake transaction information and an address or a bank account where they can receive funds. To mitigate this type of fraud, agencies need to complement their rules-based improper payment detection systems with machine learning (ML) techniques. By using ML on a large number of disparate but related data sources, including social media, agencies can formulate a more comprehensive risk score for each individual or transaction to help investigators identify improper payments efficiently.
 
-The goal of this workshop is to introduce you to ML techniques that help identify fraud techniques that help identify fraud. We will work through two labs to accomplish this objective:
 
-- [Lab1: Supervised Learning using SageMaker Built-in Algorithm XGBoost with a Real-Time Endpoint](./classification-lab1.ipynb)
-- [Lab2: Supervised Learning using open source Random Forest Algorithm with Batch Transform](./classification-lab2.ipynb)
+## Content
 
-## Getting started
+This GitHub repo includes multiple folders according to different content creation projects. All projects are related to identify improper payments for public sector customers using machine learning techniques.
 
-Coming Soon...  
+- Machine Learning folder listed various ways including unsupervised (Random Cut Forest) and supervised (Random Forest, XgBoost, Graph Neural Network) approaches to detect fraud. It also includes bias and model explainability analysis. Together with Data Preparation folder, they are related to blog "[How public sector agencies can identify improper payments with machine learning](https://aws.amazon.com/blogs/publicsector/how-public-sector-agencies-identify-improper-payments-machine-learning/)". 
 
-You can run this workshop in all commercial AWS regions where Amazon SageMaker is available.
+- Federated-Learning folder provides an example of running federated learning on Amazon SageMaker in some situation that data cannot be centralizaed into one account (e.g., due to security and privacy regulations), which is common for public sector customers. It uses improper payments identification as an example, and is related to blog "Machine Learning with Decentralized Training Data using Federated Learning on Amazon SageMaker"
 
-## Datasets
+- reinvent_2022_workshop folder is a builder's session created for AWS ReInvent 2022. The goal of this workshop is to introduce you to ML techniques that help identify fraud. It includes two labs to accomplish this objective.
 
-The curated dataset used for this lab comes from the following Centers for Medicare & Medicaid Services dataset: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service
+
+## Dataset
+
+The datsset used in Data Preparation folder comes from the Centers for Medicare & Medicaid Services dataset: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician-other-practitioners/medicare-physician-other-practitioners-by-provider-and-service
+
+Both Federated-Learning and reinvent_2022_workshop use a recurated dataset coming from the above mentioned dataset.
     
 ## License
 
 The contents of this workshop are licensed under the [Apache 2.0 License](./LICENSE).
-
-## Authors
-[Sherry Ding](https://www.linkedin.com/): Sr. AI/ML Solutions Architect
-<br />
-[Nate Haynes](https://www.linkedin.com/): Sr. Solutions Architect
-<br />
-[Sanjeev Pulapaka](https://www.linkedin.com/): Sr. Solutions Architect
-<br />
-[Bill Screen](https://www.linkedin.com/): Sr. Solutions Architect
-<br />
-[Aaron Sengstacken](https://www.linkedin.com/): Sr. AI/ML Solutions Architect
