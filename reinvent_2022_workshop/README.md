@@ -6,7 +6,7 @@ Many government agencies employ rules-based systems to identify improper payment
 
 In synthetic ID fraud, a fraudster applies for government benefits or services using a real Social Security number combined with fake transaction information and an address or a bank account where they can receive funds. To mitigate this type of fraud, agencies need to complement their rules-based improper payment detection systems with machine learning (ML) techniques. By using ML on a large number of disparate but related data sources, including social media, agencies can formulate a more comprehensive risk score for each individual or transaction to help investigators identify improper payments efficiently.
 
-The goal of this workshop is to introduce you to ML techniques that help identify fraud techniques that help identify fraud. We will work through two labs to accomplish this objective:
+The goal of this workshop is to introduce you to ML techniques that help identify fraud. We will work through two labs to accomplish this objective:
 
 - [Lab1: Supervised Learning using SageMaker Built-in Algorithm XGBoost with a Real-Time Endpoint](./classification-lab1.ipynb)
 - [Lab2: Supervised Learning using open source Random Forest Algorithm with Batch Transform](./classification-lab2.ipynb)
